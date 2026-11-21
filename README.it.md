@@ -3,7 +3,7 @@
 [English](README.md) | **Italiano**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-green)](#)
+[![Version](https://img.shields.io/badge/version-1.2.1-green)](#)
 [![Platform](https://img.shields.io/badge/platform-claude.ai%20%7C%20Claude%20Code-lightgrey)](#)
 
 **Consuma meno token nelle tue conversazioni con Claude.** Una skill per claude.ai e un set di regole da incollare in Claude Code che fanno rispondere Claude in modo più stringato, con meno ripetizioni e una migliore gestione delle chat lunghe.
