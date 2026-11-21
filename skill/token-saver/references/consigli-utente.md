@@ -1,11 +1,12 @@
 # Consigli per risparmiare token (lato utente)
 
-- **Una richiesta chiara per messaggio**, con formato desiderato incluso ("in 5 righe", "solo il codice").
-- **Non incollare tutto**: allega solo la parte rilevante di testo o codice; per file lunghi indica le righe o la sezione.
-- **Apri una nuova chat per ogni argomento.** Ogni messaggio rimanda in contesto l'intera conversazione.
-- **Non rigenerare per piccoli ritocchi**: chiedi "cambia solo X" invece di rifare tutto.
-- **Chiedi "modifica solo le righe cambiate"** quando lavori su codice o documenti.
-- **Fissa le preferenze una volta** (Impostazioni > Preferenze), invece di ripeterle ogni volta.
-- **Usa un riassunto di passaggio** quando una chat è lunga: copialo nella nuova conversazione e riparti pulito.
-- **Evita ringraziamenti e conferme come messaggi a sé**: ogni turno rilegge tutto il contesto.
-- **Attiva le funzioni solo quando servono** (ricerca web, ricerca approfondita, strumenti): consumano più token.
+- **Una richiesta chiara per messaggio**, con il formato atteso ("in 5 righe", "solo il codice", "solo il diff").
+- **Non incollare tutto**: allega solo la parte rilevante; per file lunghi indica righe o sezione.
+- **Una chat per argomento**: ogni turno rimanda in contesto l'intera conversazione.
+- **Riassunto di passaggio** quando la chat è lunga: obiettivo, decisioni, stato, prossimi passi, poi riparti in una chat nuova.
+- **Chiedi modifiche mirate** ("cambia solo X", "mostra solo le righe cambiate") invece di rigenerare il file intero.
+- **Fissa le istruzioni una volta**: iniziali in basso a sinistra → Settings → Your Claude (Account nel layout precedente) → Instructions (Instructions for Claude nel layout precedente). Valgono su tutte le chat; per un progetto usa le istruzioni di progetto.
+- **Evita messaggi di solo ringraziamento o conferma**: costano un turno intero di contesto.
+- **Attiva ricerca web, ricerca approfondita e connettori solo quando servono**: i risultati entrano in contesto.
+- **Non disattivare code execution per risparmiare**: su claude.ai le skill lo richiedono, quindi si spengono anche loro.
+- **Misura, non stimare**: i token dipendono da modello e lingua; per conteggi esatti usa l'endpoint API /v1/messages/count_tokens (gratuito).
